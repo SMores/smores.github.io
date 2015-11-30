@@ -1,0 +1,14 @@
+@font-face {
+  font-family: MilasianCirca;
+  src: url(../fonts/MilasianCircaMediumPERSONAL.ttf);
+}
+/* line 5, ../sass/styles.sass */
+video {
+  width: 500px;
+}
+
+/* line 8, ../sass/styles.sass */
+.logo {
+  width: 40%;
+  font-family: MilasianCirca;
+}
