@@ -4,11 +4,60 @@
 }
 /* line 5, ../sass/styles.sass */
 video {
-  width: 500px;
+  width: 100%;
+  margin: auto;
+}
+/* line 8, ../sass/styles.sass */
+video:hover {
+  cursor: pointer;
 }
 
-/* line 8, ../sass/styles.sass */
-.logo {
-  width: 40%;
+/* line 12, ../sass/styles.sass */
+h1.logo {
+  color: white;
+  text-align: center;
+  width: 60%;
+  text-decoration: none;
   font-family: MilasianCirca;
+  font-size: 80px;
+  margin: auto;
+}
+
+/* line 21, ../sass/styles.sass */
+ul.social {
+  width: 109px;
+  margin: 0 auto;
+  height: 24px;
+}
+/* line 25, ../sass/styles.sass */
+ul.social li {
+  float: left;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  background-size: 100%;
+  opacity: 0.8;
+  margin: 5px;
+}
+/* line 33, ../sass/styles.sass */
+ul.social li:hover {
+  opacity: 1;
+}
+/* line 35, ../sass/styles.sass */
+ul.social li a {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+/* line 39, ../sass/styles.sass */
+ul.social li.github {
+  background-image: url(../images/github.png);
+}
+/* line 41, ../sass/styles.sass */
+ul.social li.linkedin {
+  background-image: url(../images/linkedin.png);
+}
+/* line 43, ../sass/styles.sass */
+ul.social li.email {
+  background-image: url(../images/email.png);
 }

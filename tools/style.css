@@ -43,7 +43,7 @@ text-transform: uppercase;
 .clear{
 clear: both;
 }
-
+/*
 ul.social
 {
 width: 109px;
@@ -112,7 +112,7 @@ width: 24px;
 height: 24px;
 }
 
-.video{
+*/.video{
 width: 500px;
 height: 278px;
 background: url(../images/video.png) left top no-repeat;
